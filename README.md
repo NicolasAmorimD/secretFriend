@@ -1,6 +1,6 @@
 # Amigo Secreto
 
-Este projeto é uma aplicação web simples para organizar e sortear nomes em um evento de Amigo Secreto. Os usuários podem adicionar nomes à lista e realizar o sorteio de um participante de forma aleatória.
+Este projeto é uma aplicação web simples para organizar e sortear nomes. Os usuários podem adicionar nomes à lista e realizar o sorteio de um participante de forma aleatória.
 
 ## Funcionalidades
 
