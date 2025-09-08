@@ -29,7 +29,7 @@ Este projeto é uma aplicação web simples para organizar e sortear nomes. Os u
 
 ## Créditos
 
-Nicolas Amorim
+Nicolas Amorim <br>
 Desenvolvido para o desafio de lógica de programação da Alura/Oracle.
 
 
