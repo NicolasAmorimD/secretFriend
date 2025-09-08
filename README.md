@@ -18,7 +18,7 @@ Este projeto é uma aplicação web simples para organizar e sortear nomes. Os u
 
 ## Como usar
 
-1. Abra o arquivo `index.html` em um navegador.
+1. Abra o link em um navegador: https://nicolasamorimd.github.io/secretFriend/
 2. Digite o nome de um amigo e clique em "Adicionar".
 3. Repita o processo para todos os participantes.
 4. Clique em "Sortear amigo" para realizar o sorteio.
@@ -29,6 +29,7 @@ Este projeto é uma aplicação web simples para organizar e sortear nomes. Os u
 
 ## Créditos
 
+Nicolas Amorim
 Desenvolvido para o desafio de lógica de programação da Alura/Oracle.
 
 
