@@ -28,6 +28,7 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    padding: 10px;
 }
 
 /* Banner */
@@ -37,6 +38,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+}
+
+.header-banner img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
 /* Seção de entrada */
@@ -159,4 +166,35 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+@media (max-width: 768px) {
+    .header-banner h1.main-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header-banner h1.main-title {
+        font-size: 26px;
+    }
+    .header-banner img {
+        max-width: 180px;
+    }
+    .section-title {
+        font-size: 26px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .button-container {
+        width: 100%;
+    }
+    .button-draw {
+        padding: 8px 20px;
+        font-size: 14px;
+        justify-content: center;
+    }
 }

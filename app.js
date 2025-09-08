@@ -5,9 +5,14 @@ let nomes = []
 function adicionarAmigo() {
     const amigo = document.getElementById('amigo').value
 
+    if (amigo === '') {
+        alert('Por favor, insira um nome válido.')
+        return
+    }
+
     nomes.push(amigo)
     atualizarLista()
-    amigo.textContent = ''
+    document.getElementById('amigo').value = ''
     amigo.focus()
 }
 
